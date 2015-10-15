@@ -1,0 +1,28 @@
+{
+  "name": "es6-template-string-loader",
+  "version": "1.0.0",
+  "description": "A Webpack loader that turns text file to an es6 template string",
+  "main": "index.js",
+  "scripts": {
+    "push": "git push --tag origin master:master",
+    "bump": "bump --prompt --commit --tag --push --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaketbaby/es6-template-string-loader.git"
+  },
+  "keywords": [ "webpack", "loader", "es6", "template" ],
+  "author": "Shaketbaby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaketbaby/es6-template-string-loader/issues"
+  },
+  "homepage": "https://github.com/shaketbaby/es6-template-string-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.11",
+    "webpack": "^1.5.0"
+  },
+  "devDependencies": {
+    "version-bump-prompt": "^1.5.1"
+  }
+}
