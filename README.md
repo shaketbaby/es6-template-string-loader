@@ -67,3 +67,11 @@ Then, you would be able to use `styles` in the HTML template
 ```html
   <div class="${styles.foo}"></div>
 ```
+
+If you use babel 6, make sure to add the required loaders params, like this:
+```javascript
+  loaders: [
+    { test: /\.css$/, loader: "style!css?modules" },
+    { test: /\.html$/, loader: "babel?presets[]=es2015!es6-template-string" }
+  ]
+```
