@@ -1,6 +1,6 @@
 {
   "name": "es6-template-string-loader",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A Webpack loader that turns text file to an es6 template string",
   "main": "index.js",
   "scripts": {
