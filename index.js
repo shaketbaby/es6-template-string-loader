@@ -2,7 +2,7 @@ var loaderUtils = require("loader-utils");
 
 module.exports = function(source) {
   this.cachable && this.cachable(true);
-  var query = loaderUtils.parseQuery(this.query);
+  var query = loaderUtils.getOptions(this);
 	var context = query.context || "";
 	var name = query.exportAs || "";
   var templateFn = "_" + (name || "template");

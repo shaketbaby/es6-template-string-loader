@@ -24,8 +24,10 @@
   },
   "homepage": "https://github.com/shaketbaby/es6-template-string-loader#readme",
   "dependencies": {
-    "loader-utils": "^0.2.11",
-    "webpack": "^1.5.0"
+    "loader-utils": "^1.1.0"
+  },
+  "peerDependencies": {
+    "webpack": "*"
   },
   "devDependencies": {
     "version-bump-prompt": "^1.5.1"
